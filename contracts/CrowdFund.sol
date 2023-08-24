@@ -4,7 +4,7 @@ pragma solidity ^0.8.18;
 // Uncomment this line to use console.log
 // import "hardhat/console.sol";
 
-contract CrowFund {
+contract CrowdFund {
   struct Fundraiser {
     address beneficiary;
     uint target;
