@@ -3,7 +3,7 @@ const hre = require("hardhat");
 async function main() {
   const crowdFund = await hre.ethers.deployContract("CrowdFund");
 
-  crowdFund.waitForDeployment();
+  await crowdFund.waitForDeployment();
 
   console.log(`crowdfund deployed at ${crowdFund.target}`);
 }
